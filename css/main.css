@@ -183,8 +183,7 @@ a:after {
 	color: white;
 }
 
-/* Intnro Wrap */
-
+/* Intro Wrap */
 #intro {
 	background: #2c3e50;
 	padding-top: 60px;
@@ -204,6 +203,7 @@ a:after {
 }
 
 
+/* Skills Wrap */
 #skillswrap {
 	background: #2c3e50;
 	padding-top: 60px;
@@ -211,10 +211,17 @@ a:after {
 	color: white;
 }
 
-#skillswrap h5, p {
+#skillswrap h1, h2, h3, h4, h5, p {
 	color: white;
 }
 
+
+/* Portfolio Wrap */
+#portfoliowrap h1, h2, h3, h4, h5 {
+	color: #555
+}
+
+/* Foot Wrap */
 #footwrap {
 	background: #2f2f2f;
 	padding-top: 50px;
@@ -286,4 +293,40 @@ sm {
 
 .skills-item {
 	line-height: 1px;
+}
+
+
+/*---------------------------------------------------
+	CUSTOM
+---------------------------------------------------*/
+
+#more1 {display: none;}
+#more2 {display: none;}
+
+.para-text {
+	font-size: 16px;
+}
+
+.appname-text {
+	font-size: 16px;
+}
+
+.applinks {
+	font-size: 16px;
+	text-align: center;
+}
+
+.header-light {
+	color: white;
+}
+
+.header-dark {
+	/* color: rgb(51, 51, 51); */
+	color: black;
+}
+
+.app-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
