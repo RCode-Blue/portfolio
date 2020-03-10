@@ -330,3 +330,7 @@ sm {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.work-padding-bottom {
+	padding-bottom: 20px;
+}
