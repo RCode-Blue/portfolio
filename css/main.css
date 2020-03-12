@@ -9,8 +9,9 @@
 body {
   background-color: #f2f2f2;
     font-family: "Lato";
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 350;
+    /* font-weight: 400; */
+    font-size: 18px;
     color: #555;
 
     -webkit-font-smoothing: antialiased;
@@ -22,11 +23,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
     color: #333;
+    font-size: 16px;
 }
 
 
 /* Paragraph & Typographic */
 p {
+    font-size: 16px;
     line-height: 28px;
     margin-bottom: 25px;
 }
@@ -161,7 +164,7 @@ a:after {
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -179,7 +182,7 @@ a:after {
 }
 
 #headerwrap h3 {
-	font-size: 20px;
+	font-size: 24px;
 	color: white;
 }
 
@@ -189,32 +192,53 @@ a:after {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
-} 
+}
 
 #intro h5, p {
 	color: white;
+  font-size: 18px;
 }
 
-#intro i {
-	color: white;
-	font-size: 20px;
-	padding-right: 8px;
-	vertical-align: middle;
+#intro sm {
+
+  font-size: 16px;
 }
+
+@media (min-width: 1200px){
+  #intro p {
+    /* font-size: 22px; */
+    font-size: 20px;
+  }
+  p {
+		/* font-size: 20px; */
+		font-size: 18px;
+  }
+}
+
 
 
 /* Skills Wrap */
-#skillswrap {
+.skillswrap {
 	background: #2c3e50;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
 }
 
-#skillswrap h1, h2, h3, h4, h5, p {
+.skillswrap h1, h2, h3, h4, h5, p {
 	color: white;
 }
 
+.skillswrap .container__first {
+  margin-bottom: 50px;
+}
+.skills-item img {
+  margin-right: 8px;
+}
+
+.skills__description {
+  display: inline-block;
+}
 
 /* Portfolio Wrap */
 #portfoliowrap h1, h2, h3, h4, h5 {
@@ -272,7 +296,8 @@ a:after {
 
 .desc t {
 	color: #34495e;
-	font-weight: 700;
+	/* font-weight: 700; */
+	font-weight: 400;
 }
 
 .desc imp {
@@ -287,13 +312,14 @@ a:after {
 
 
 sm {
-	font-size: 12px;
+	font-size: 14px;
 }
 
 
 .skills-item {
 	line-height: 1px;
 }
+
 
 
 /*---------------------------------------------------
@@ -304,7 +330,10 @@ sm {
 #more2 {display: none;}
 
 .para-text {
-	font-size: 16px;
+	font-size: 18px;
+}
+.portfolio__spacer {
+  margin-bottom: 80px;
 }
 
 .appname-text {
@@ -312,17 +341,20 @@ sm {
 }
 
 .applinks {
-	font-size: 16px;
+	font-size: 18px;
 	text-align: center;
 }
 
 .header-light {
 	color: white;
+  font-weight: 400;
+  margin-bottom: 0;
 }
 
 .header-dark {
 	/* color: rgb(51, 51, 51); */
 	color: black;
+  font-weight: 600;
 }
 
 .app-img {
@@ -332,5 +364,18 @@ sm {
 }
 
 .work-padding-bottom {
-	padding-bottom: 20px;
+	padding-bottom: 40px;
+}
+
+.resume-padding-bottom {
+	padding-bottom: 40px;
+}
+
+@media (min-width: 1200px){
+  .appname-text  {
+    font-size: 20px;
+  }
+  .para-text {
+  	font-size: 20px;
+  }
 }
