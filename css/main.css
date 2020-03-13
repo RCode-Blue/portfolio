@@ -341,8 +341,13 @@ sm {
 }
 
 .applinks {
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
+	margin-bottom: 5px;
+}
+
+.applinks-bottom {
+	margin-bottom: 20px;
 }
 
 .header-light {
@@ -361,6 +366,7 @@ sm {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 20px;
 }
 
 .work-padding-bottom {
@@ -370,6 +376,7 @@ sm {
 .resume-padding-bottom {
 	padding-bottom: 40px;
 }
+
 
 @media (min-width: 1200px){
   .appname-text  {
